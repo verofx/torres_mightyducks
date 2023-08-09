@@ -48,7 +48,7 @@ header{
     top: 50%;
 
 }
-nav, main{
+nav{
     display: inline-block;
 }
 
@@ -78,7 +78,12 @@ nav a{
 .section-events{
     display: flex;
     margin-top: 20px;
-    width: 100%;
+    width: 80%;
     align-items: start;
+    margin-left: 30%;
     
+}
+
+main{
+    display: flex;
 }
