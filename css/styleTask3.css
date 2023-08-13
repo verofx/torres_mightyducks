@@ -1,0 +1,152 @@
+:root{
+    font-size: 20px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+header{
+    min-height: 4vh;
+    height: 250px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;    
+    background-position: 0% 25%;
+}
+
+h1{
+    opacity: 1;
+    padding-left: 4vw;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102, 102, 102, 0.5);
+    position: relative;
+    color: white;
+    text-shadow: 7px 4px 7px black;
+}
+
+.section-subtitle{
+    background-color: black;
+    padding-bottom: 8px;
+}
+
+#subtitle{ 
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px gray;
+}
+
+#logo{
+    width: 130px;
+    position: absolute;
+    right: 10%;
+    top:200px ;
+}
+
+nav{
+    min-height: 6vh;
+    min-width: 30%;
+    max-height: fit-content;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+}
+
+.botton-nav{
+    padding: 5px 0;
+    width: 83%;
+    margin: 0 auto 7vh auto;
+    border-bottom: 25px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration:none;
+    color: white;
+    transition: all .4s;
+}
+
+.botton-nav:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px gray;
+}
+
+main{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-body{
+    padding: 4%;
+}
+
+.section-ryp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-ryp li,
+.section-ryp h2,
+.section-ryp h3{
+    margin-bottom: 15px;
+}
+
+.section-ryp>h2,
+.section-ryp>p{
+    text-align: center;
+}
+
+.section-ryp li{
+    text-align: justify;
+}
+
+#list-about{
+    list-style: none;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.no-style-list{
+    list-style: none;
+}
+
+.alpha-list{
+    list-style: lower-alpha;
+}
+
+.alpha-list li::marker{
+    font-weight: bold;
+}
+
+.circle-list{
+    list-style: circle;
+}
+
+.table-september th,
+.table-september td{
+    padding: 10px;
+    outline: 1px solid black;
+}
+
+.table-september tr:nth-child(odd){
+    background-color: rgba(103, 110, 109, 0.4);
+}
+
+.table-september tr:nth-child(even){
+    background-color: #7b7d7e;
+}
+
+
+
+
+
